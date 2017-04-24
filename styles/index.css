@@ -1,0 +1,28 @@
+body {
+  background: #333333;
+}
+
+header {
+  color: #95989A;
+}
+
+header .contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .phone p {
+  margin: 0px;
+}
+
+header .icon {
+  width: 23px;
+  height: 23px;
+}
