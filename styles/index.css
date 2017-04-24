@@ -9,6 +9,8 @@ body {
   padding: 0px;
 }
 
+/*Header*/
+
 header {
   color: #95989A;
 }
@@ -34,17 +36,16 @@ header .phone {
   border-top: 1px solid #95989A;
   border-bottom: 1px solid #95989A;
   width: 100%;
-
-
 }
 
 header .phone p {
   margin: 0px;
 }
 
-header .icon {
+.icon {
   width: 23px;
   height: 23px;
+  margin: 4px;
 }
 
 header .social {
@@ -94,4 +95,75 @@ header .bar {
   background: #2D7100;
   margin: 3px;
   border-radius: 5px;
+}
+
+/*Footer*/
+
+footer {
+  color: #95989A;
+}
+
+footer .foot-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .contact-info-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer p {
+  margin: 0px;
+}
+
+footer .to-top {
+  background: #2D7100;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .to-top h3 {
+  margin: 0px;
+  font-size: 12px;
+}
+
+footer .phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 0px 0px;
+  font-size: 12px;
+}
+
+footer .email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 0px 0px;
+  font-size: 12px;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+footer .foot-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+footer .foot-bottom p {
+  font-size: 12px;
+  padding-top: 10px;
 }
