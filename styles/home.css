@@ -16,3 +16,32 @@
   font-size: 20px;
   text-align: center;
 }
+
+.professional {
+  background: #fff;
+  padding: 40px 10px 10px 10px;
+
+}
+
+.services-intro {
+  border: 4px solid #ECECED;
+  margin-bottom: 40px;
+}
+
+.services-intro h2 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.service-card {
+
+}
+
+.service-card  img {
+  height: 196px;
+  width: 300px;
+}
+
+.service-card h3 {
+  margin: 18px 0px 18px 0px;
+}
