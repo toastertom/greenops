@@ -67,6 +67,12 @@ header .navbar-header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 5px;
+}
+
+header .navbar-header img {
+ height: 58px;
+ width: 157px;
 }
 
 header .navbar-header button{
