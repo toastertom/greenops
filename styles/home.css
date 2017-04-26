@@ -48,7 +48,7 @@
 
 .service-card  img {
   height: 196px;
-  width: 300px;
+  width: 100%;
 }
 
 .service-card h3 {
