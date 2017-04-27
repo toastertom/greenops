@@ -98,9 +98,12 @@
 }
 
 .testament-cards {
-  width: 290px;
-  height: 160px;
   border: 4px solid #868E89;
   margin: 15px;
+  padding: 25px 15px 25px 15px;
   background: rgba(225, 225, 225, 0.8);
+}
+
+.testament-cards p {
+
 }
