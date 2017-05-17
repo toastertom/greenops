@@ -52,10 +52,6 @@ header .social {
   padding: 5px;
 }
 
-header .container {
-
-}
-
 header .navigation {
   width: 100vw;
   background: #fff;
@@ -64,10 +60,15 @@ header .navigation {
 }
 
 header .navbar-header {
+  display: block;
+  padding: 5px 15px;
+  /*width: 100vw;*/
+}
+
+header .small-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 15px;
 }
 
 header .navbar-header img {
@@ -103,8 +104,20 @@ header .bar {
   border-radius: 5px;
 }
 
-#navbar {
-  /*display: none;*/
+#hamburger-menu {
+  display: block;
+}
+
+#hamburger-menu ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+#hamburger-menu li {
+  text-align: center;
+  padding: 10px 0px;
 }
 
 /*Footer*/
