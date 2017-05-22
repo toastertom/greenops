@@ -14,7 +14,7 @@
 
   </head>
   <body>
-    <header>
+    <header ng-controller="indexCtrl">
       <div class="contact-info">
         <p>Proudly Serving Utah</p>
 
@@ -33,7 +33,7 @@
             <div class="small-container"
               <a><img src=".//images/greenopslogo1.jpg"></img></a>
 
-              <button>
+              <button ng-click="toggle()">
                 <span class="menu-text">
                   Menu
                 </span>
@@ -102,6 +102,7 @@
     <script src="app.js"></script>
 
     <!-- Controllers -->
+    <script src="./js/controllers/indexCtrl.js"></script>
     <script src="./js/controllers/homeCtrl.js"></script>
 
   </body>
