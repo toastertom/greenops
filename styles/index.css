@@ -108,13 +108,17 @@ header .bar {
 
 #hamburger-menu {
   display: block;
+  background: #333333;
 }
 
 #hamburger-menu ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  position: relative;
+  position: absolute;
+  background: #fff;
+  width: 100vw;
+  left: 0;
 }
 
 #hamburger-menu li {
