@@ -61,7 +61,7 @@ header .navigation {
 
 header .navbar-header {
   display: block;
-  padding: 5px 15px;
+  padding: 5px 0px;
   /*width: 100vw;*/
 }
 
@@ -74,6 +74,7 @@ header .small-container {
 header .navbar-header img {
  height: 58px;
  width: 157px;
+ margin: 5px 15px;
 }
 
 header .navbar-header button{
@@ -83,6 +84,7 @@ header .navbar-header button{
   background: #fff;
   display: flex;
   align-items: center;
+  margin: 5px 15px;
 }
 
 header button .menu-text {
@@ -106,24 +108,32 @@ header .bar {
 
 /*Hamburger Menue*/
 
-#hamburger-menu {
+
+nav {
   display: block;
   background: #333333;
+  overflow: hidden;
+  height: 0px;
+  transition: height 0.3s linear;
 }
 
-#hamburger-menu ul {
+nav ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  position: absolute;
+  position: relative;
   background: #fff;
-  width: 100vw;
-  left: 0;
+
 }
 
-#hamburger-menu li {
+nav li {
   text-align: center;
   padding: 10px 0px;
+  width: 100vw;
+}
+
+.slide-down {
+  height: 240px;
 }
 
 /*Footer*/

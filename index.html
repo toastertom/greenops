@@ -33,7 +33,7 @@
             <div class="small-container"
               <a><img src=".//images/greenopslogo1.jpg"></img></a>
 
-              <button ng-click="toggle()">
+              <button ng-click="toggleDropDown()">
                 <span class="menu-text">
                   Menu
                 </span>
@@ -45,18 +45,30 @@
               </button>
             </div>
 
-            <nav id="hamburger-menu">
+            <nav>
               <ul>
-                <a>
+                <a
+                ui-sref="home"
+                ng-click="toggleDropDown()"
+                >
                   <li>Home</li>
                 </a>
-                <a>
+                <a
+                ui-sref="services"
+                ng-click="toggleDropDown()"
+                >
                   <li>Services</li>
                 </a>
-                <a>
+                <a
+                ui-sref="about"
+                ng-click="toggleDropDown()"
+                >
                   <li>About Us</li>
                 </a>
-                <a>
+                <a
+                ui-sref="contact"
+                ng-click="toggleDropDown()"
+                >
                   <li>Contact Us</li>
                 </a>
               </ul>
