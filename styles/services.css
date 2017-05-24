@@ -1,0 +1,22 @@
+.services-header {
+  background-image: url("../images/frontyard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  position: relative;
+}
+
+.services-title {
+  background: #333333;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.services-title h1 {
+  margin: 0px;
+  text-align: center;
+  color: #fff;
+}

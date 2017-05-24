@@ -36,8 +36,10 @@
       </div>
         <div class="navigation">
           <div class="navbar-header">
-            <div class="small-container"
-              <a ui-sref="home"><img src=".//images/greenopslogo1.jpg"></img></a>
+            <div class="small-container">
+                <img
+                  ui-sref="home"
+                 src=".//images/greenopslogo1.jpg"></img>
 
               <button ng-click="toggleDropDown()">
                 <span class="menu-text">
@@ -84,7 +86,9 @@
         </div>
     </header>
 
-    <ui-view></ui-view>
+    <main>
+      <ui-view></ui-view>
+    </main>
 
     <footer>
       <div class="foot-top">
@@ -119,9 +123,13 @@
 
     <script src="app.js"></script>
 
+    <!-- Services -->
+    <script src="./js/services/servicesSvc.js"></script>
+
     <!-- Controllers -->
     <script src="./js/controllers/indexCtrl.js"></script>
     <script src="./js/controllers/homeCtrl.js"></script>
+    <script src="./js/controllers/servicesCtrl.js"></script>
 
   </body>
 </html>

@@ -1,1 +1,13 @@
-<h1>Services!</h1>
+<div class="services-header">
+  <div class="services-title">
+    <h1>Our <span style="color:#8BCB56">Services</span></h1>
+  </div>
+</div>
+
+<div class="services-container">
+  <div class="service-card" ng-repeat="service in services">
+    <img src="{{service.image}}"></img>
+    <h3>{{service.title}}</h3>
+    <p>{{service.desc}}</p>
+  </div>
+</div>

@@ -8,8 +8,8 @@ angular.module('green-ops', ['ui.router']).config(function ($stateProvider, $url
       })
     .state('services', {
       url:'/services',
-      templateUrl: "views/services.html"
-
+      templateUrl: "views/services.html",
+      controller:'servicesCtrl'
       })
     .state('about', {
       url:'/about',

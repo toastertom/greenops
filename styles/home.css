@@ -1,4 +1,4 @@
-.intro {
+.home-header {
   background-image: url("../images/lawnmowing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@
 
 }
 
-.intro h1 {
+.home-header h1 {
   color: #fff;
   margin: 0px;
   font-size: 20px;
