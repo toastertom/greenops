@@ -135,6 +135,14 @@ nav li {
   text-align: center;
   padding: 10px 0px;
   width: 100vw;
+  color: #95989A;
+  transition: font-size 0.3s linear;
+
+}
+
+nav li:hover {
+  color: #2D7100;
+  font-size: 25px;
 }
 
 .slide-down {

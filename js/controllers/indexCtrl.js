@@ -26,5 +26,9 @@ angular.module('green-ops').controller('indexCtrl', function ($scope) {
     document.documentElement.scrollTop = 0; // For IE and Firefox
   };
 
+  // Updates the copyright date.
+  $scope.date = new Date();
+
+
 
 });
