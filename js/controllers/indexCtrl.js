@@ -3,9 +3,6 @@ angular.module('green-ops').controller('indexCtrl', function ($scope) {
   // Working Toggle
   $scope.dropDown = false;
 
-  // var nav = document.getElementsByTagName('nav');
-  // console.log(nav);
-
   //utilizes jQ lite
   var nav = angular.element(document.querySelector('nav'));
 
@@ -20,6 +17,14 @@ angular.module('green-ops').controller('indexCtrl', function ($scope) {
       nav.removeClass('slide-down');
     }
 
-    }
+  };
+
+  // Scroll to top function
+  $scope.topFunction = function () {
+
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+  };
+
 
 });

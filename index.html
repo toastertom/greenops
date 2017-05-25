@@ -21,7 +21,7 @@
   </head>
   <body>
     <header ng-controller="indexCtrl">
-      <div class="contact-info">
+      <div class="contact-info" id="top-tag">
         <p>Proudly Serving Utah</p>
 
         <div class="phone">
@@ -90,11 +90,9 @@
       <ui-view></ui-view>
     </main>
 
-    <footer>
+    <footer ng-controller="indexCtrl">
       <div class="foot-top">
-        <div class="to-top">
-          <h3>Back To Top</h3>
-        </div>
+          <button ng-click="topFunction()"> Back To Top </button>
         <div class="contact-info-bottom">
           <div class="phone">
             <img class="icon" src="./images/phoneicon.svg"></img>

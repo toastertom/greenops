@@ -2,6 +2,10 @@ html {
   background: #333333;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background: #333333;
   font-family: 'Roboto', sans-serif;
@@ -159,19 +163,15 @@ footer p {
   margin: 0px;
 }
 
-footer .to-top {
+footer button {
   background: #2D7100;
   color: #fff;
   height: 50px;
   width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-footer .to-top h3 {
-  margin: 0px;
+  text-align: center;
   font-size: 12px;
+  font-weight: 400;
+  border: none;
 }
 
 footer .phone {
