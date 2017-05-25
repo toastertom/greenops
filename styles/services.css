@@ -19,4 +19,30 @@
   margin: 0px;
   text-align: center;
   color: #fff;
+  padding: 10px 0px;
+}
+
+.services-container {
+  background: #fff;
+  padding: 15px 15px;
+}
+
+.service-card {
+  margin: 35px 0px;
+}
+
+.service-card img {
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+  display: block;
+  margin: 0px auto;
+}
+
+.service-card h3 {
+ text-align: center;
+}
+
+.service-card p{
+
 }
