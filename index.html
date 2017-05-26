@@ -87,7 +87,10 @@
     </header>
 
     <main>
-      <ui-view></ui-view>
+      <!--
+      autoscroll="true" is for ui-sref linking to top of page. 
+    -->
+      <ui-view autoscroll="true"></ui-view>
     </main>
 
     <footer ng-controller="indexCtrl">
