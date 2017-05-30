@@ -32,6 +32,20 @@
     flex-wrap: wrap;
   }
 
+  .featured-service {
+    padding: 0px 50px;
+  }
+
+
+  .featured-service img {
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+    display: block;
+    margin: 0px auto;
+
+  }
+
   .choose-us {
     padding: 0px 40px 0px 40px;
   }
@@ -43,5 +57,20 @@
 
   .testament-cards {
     margin: 50px 50px 50px 50px;
+  }
+
+  /*About Us*/
+
+  .about-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .line {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .about-card {
+    padding: 0px 60px;
   }
 }

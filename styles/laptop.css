@@ -1,0 +1,9 @@
+@media screen and (min-width: 1380px) {
+
+  .services-intro {
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+  }
+
+}

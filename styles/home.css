@@ -42,21 +42,21 @@
 
 }
 
-.service-card {
+.featured-service {
   margin-bottom: 32px;
 }
 
-.service-card  img {
+.featured-service  img {
   height: 196px;
   width: 100%;
 }
 
-.service-card h3 {
+.featured-service h3 {
   margin: 18px 0px 18px 0px;
   color: #000;
 }
 
-.service-card a {
+.featured-service a {
   color: #000
 }
 
