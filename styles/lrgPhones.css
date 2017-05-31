@@ -1,5 +1,11 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 400px) {
 
+  .featured-service {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
+  .featured-service img {
+  }
 
 }
