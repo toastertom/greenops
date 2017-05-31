@@ -146,4 +146,22 @@
     font-size: 20px;
   }
 
+  /*Services*/
+
+  .services-header {
+    height: 600px;
+  }
+
+  .services-title h1{
+    font-size: 51px;
+  }
+
+  .service-card {
+   width: 33.33%
+  }
+
+  /*Contact Us*/
+  .contact-section h3 {
+    font-size: 36px;
+  }
 }
