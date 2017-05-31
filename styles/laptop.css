@@ -160,6 +160,50 @@
    width: 33.33%
   }
 
+  /*About Us*/
+
+  .about-header {
+    height: 600px;
+  }
+
+  .about-header h1{
+    font-size: 51px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+  }
+
+  .about-container .profile-pic {
+    margin: 0px;
+    width: 33.33%
+  }
+
+  .about-container .line {
+    margin: 0px 10px;
+    text-align: center;
+  }
+
+  .about-card {
+    width: 33.33%;
+    padding: 0px;
+  }
+
+  .about-card h2{
+    font-size: 32px;
+  }
+
+  .about-card h4{
+    font-size: 20px;
+  }
+
+  .about-card p{
+    font-size: 18px;
+  }
+
+
   /*Contact Us*/
   .contact-section h3 {
     font-size: 36px;
