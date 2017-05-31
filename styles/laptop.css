@@ -1,9 +1,139 @@
-@media screen and (min-width: 1380px) {
+ @media screen and (min-width: 1000px) {
+
+   /*Index*/
+   
+
+   /*Home*/
+   .home-header {
+     height: 600px;
+   }
+
+   .home-header h1{
+     font-size: 51px;
+   }
+
+  .professional {
+    display: flex;
+  }
 
   .services-intro {
-    width: 60%;
+    width: 359px;
     margin: 0 auto;
-    height: 400px;
+    height: 355px;
+  }
+
+  .services-intro h2{
+    margin: 40px 0px;
+    font-size: 32px;
+
+  }
+
+  .services-intro p{
+    padding-top: 40px;
+    font-size: 18px;
+  }
+
+  .featured-service {
+    padding: 0px 10px;
+    width: 250px;
+    font-size: 18px;
+  }
+
+  .featured-service img {
+    height: 169px;
+    width: 259px;
+
+  }
+
+  .featured-service h3 {
+    font-size: 20px;
+  }
+
+  .featured-service p {
+    font-size: 18px;
+  }
+
+  .choose-us h2{
+    font-size: 51px;
+  }
+
+  .why-container {
+    display: flex;
+  }
+
+  .why-cards {
+    width: 380px;
+    height: 282px;
+  }
+
+  .why-cards h3{
+    margin: 20px 0px;
+    font-size: 23px;
+  }
+
+  .why-cards p{
+    margin: 40px 0px;
+    font-size: 18px;
+  }
+
+  .testament-header h2 {
+    font-size: 51px;
+  }
+
+  .testament-container {
+    display: flex;
+  }
+
+  .testament-cards {
+    width: 527px;
+    height: 307px;
+
+  }
+
+  .testament-cards p{
+    font-size: 18px;
+    margin: 80px 0px;
+
+  }
+
+  .testament-cards h4 {
+    font-size: 20px;
+  }
+
+  .testament-cards span {
+    font-size: 18px;
+  }
+
+  .contact-section {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .contact-container h2 {
+    font-size: 44px;
+  }
+
+  .contact-container form {
+    padding-bottom: 40px;
+  }
+
+  .contact-container input {
+    height: 45px;
+    width: 933px;
+    font-size: 20px;
+  }
+
+  .contact-container textarea {
+    height: 288px;
+    width: 933px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .contact-container button {
+    width: 330px;
+    height: 64px;
+    font-size: 20px;
   }
 
 }

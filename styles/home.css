@@ -33,13 +33,11 @@
   margin-top: 0px;
   text-align: center;
   color: #2D7100;
-
 }
 
 .services-intro p {
   padding-top: 19px;
   border-top: 2px solid #ECECED;
-
 }
 
 .featured-service {
@@ -57,7 +55,7 @@
 }
 
 .featured-service a {
-  color: #000
+  color: #2D7100;
 }
 
 .choose-us {
@@ -109,11 +107,14 @@
   border: 4px solid #868E89;
   margin: 15px;
   padding: 25px 15px 25px 15px;
-  background: rgba(225, 225, 225, 0.8);
+  background: rgba(225, 225, 225, 0.92);
 }
 
-.testament-cards p {
 
+
+.testament-cards span {
+  color: #2D7100;
+  font-size: 14px;
 }
 
 .contact-section {
