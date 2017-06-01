@@ -17,18 +17,17 @@ body {
 
 header {
   color: #95989A;
+  width: 100%;
 }
 
 header .contact-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 header .contact-info p{
   margin: 0px;
   padding: 5px;
+  text-align: center;
 }
 
 header .phone {
@@ -40,6 +39,10 @@ header .phone {
   border-top: 1px solid #95989A;
   border-bottom: 1px solid #95989A;
   width: 100%;
+}
+
+header .social {
+  text-align: center;
 }
 
 header .phone p {
@@ -63,25 +66,19 @@ header .navigation {
   margin: 0px;
 }
 
-header .navbar-header {
-  display: block;
-  padding: 5px 0px;
-  /*width: 100vw;*/
-}
-
-header .small-container {
+ header .small-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header .navbar-header img {
+ header .navigation img {
  height: 58px;
  width: 157px;
  margin: 5px 15px;
 }
 
-header .navbar-header button{
+ header .navigation button{
   padding: 8px 16px 8px 16px;
   border: 4px solid #2D7100;
   border-radius: 5px;
@@ -98,11 +95,11 @@ header button .menu-text {
   margin: 0px 3px;
 }
 
-header .icon-bar {
+ .icon-bar {
   display: inline-block;
 }
 
-header .bar {
+ .bar {
   width: 18px;
   height: 3px;
   background: #2D7100;

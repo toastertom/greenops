@@ -1,7 +1,67 @@
  @media screen and (min-width: 1000px) {
 
    /*Index*/
+   header {
+    height: 120px;
+   }
 
+   header .contact-info {
+     display: flex;
+     width: 90%;
+     margin: 0px auto;
+
+   }
+
+   header .contact-info p {
+     width: 50%;
+     text-align: left;
+   }
+
+   header .phone {
+     width: 25%;
+     border: none;
+   }
+
+   header .social {
+     width: 25%;
+   }
+
+   header .navigation {
+     width: 90%;
+     margin: 0px auto;
+     height: 127px;
+     position: absolute;
+     left: 0;
+     right: 0;
+     display: flex;
+   }
+
+  header .small-container {
+    width: 40%;
+  }
+
+  header .navigation button {
+    display: none;
+  }
+
+  nav {
+    overflow: visible;
+    width: 70%;
+  }
+
+  nav ul {
+    display: flex;
+
+  }
+
+  nav li {
+    width: 140px;
+    text-align: inherit;
+  }
+
+  nav,li, ul{
+    background: #2D7100;
+  }
 
    /*Home*/
    .home-header {
