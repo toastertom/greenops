@@ -47,6 +47,12 @@ header .social {
 
 header .phone p {
   margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
+header .phone .icon {
+  margin: 0px 5px;
 }
 
 .icon {
@@ -139,6 +145,12 @@ nav li {
 
 nav li:hover {
   font-size: 25px;
+}
+
+nav li .icon {
+  width: 18px;
+  height: 18px;
+  margin: 0px 15px;
 }
 
 .slide-down {
