@@ -34,10 +34,17 @@
      left: 0;
      right: 0;
      display: flex;
+     z-index: 49;
    }
 
   header .small-container {
     width: 40%;
+  }
+
+  header .small-container img{
+    margin: 0px auto;
+    height: 120px;
+    width: 280px;
   }
 
   header .navigation button {
@@ -46,22 +53,39 @@
 
   nav {
     overflow: visible;
-    width: 70%;
+    width: 80%;
+    background: #2D7100;
   }
 
   nav ul {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    background: #2D7100;
+    width: 100%;
+    height: 127px;
   }
 
   nav li {
     width: 140px;
     text-align: inherit;
+    background: #2D7100;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 0px 5px;
   }
 
-  nav,li, ul{
-    background: #2D7100;
+  nav li:hover {
+    font-size: 24px;
+    border-bottom: 2px solid #fff;
   }
+
+  .slide-down {
+    height: 0px;
+  }
+
+
 
    /*Home*/
    .home-header {
