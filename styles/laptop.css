@@ -145,8 +145,6 @@
 
   }
 
-  .c
-
   .featured-service h3 {
     font-size: 20px;
   }
@@ -170,6 +168,7 @@
   .why-cards {
     width: 380px;
     height: 282px;
+    padding-top: 40px;
   }
 
   .why-cards h3{
@@ -328,7 +327,7 @@
   }
 
   footer .bottom-nav li {
-      text-align: left;
+      text-align: center;
       padding: 10px 0px;
       width: 140px;
       color: #fff;
