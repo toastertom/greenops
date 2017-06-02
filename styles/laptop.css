@@ -82,6 +82,8 @@
 
   nav a {
     width: 25%;
+    display: flex;
+    justify-content: center;
   }
 
   nav li {
