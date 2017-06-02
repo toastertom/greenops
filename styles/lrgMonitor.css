@@ -7,9 +7,8 @@ nav li {
 }
 
 /*Home*/
-.featured-service img {
-  width: 350px;
-  margin: 0px;
+.professional .featured-service {
+  padding: 0px 30px;
 }
 
 
