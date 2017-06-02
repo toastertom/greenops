@@ -115,27 +115,27 @@
   }
 
   .services-intro {
-    width: 359px;
+    width: 250px;
     margin: 0 auto;
     height: 355px;
 
   }
 
   .services-intro h2{
-    margin: 40px 0px;
-    font-size: 32px;
+    margin: 15px 0px;
+    font-size: 28px;
 
   }
 
   .services-intro p{
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: 18px;
   }
 
   .featured-service {
     padding: 0px 10px;
-    width: 250px;
-    font-size: 18px;
+    width: 200px;
+    font-size: 16px;
     margin: 0px 5px;
   }
 
@@ -326,7 +326,7 @@
   }
 
   footer .bottom-nav li {
-      text-align: center;
+      text-align: left;
       padding: 10px 0px;
       width: 140px;
       color: #fff;
