@@ -97,8 +97,30 @@
     </main>
 
     <footer ng-controller="indexCtrl">
+
       <div class="foot-top">
-          <button ng-click="topFunction()"> Back To Top </button>
+
+        <button ng-click="topFunction()"> Back To Top </button>
+
+        <ul class="bottom-nav">
+          <a
+          ui-sref="home">
+            <li>Home</li>
+          </a>
+          <a
+          ui-sref="services">
+            <li>Services</li>
+          </a>
+          <a
+          ui-sref="about">
+            <li>About Us</li>
+          </a>
+          <a
+          ui-sref="contact">
+            <li>Contact Us</li>
+          </a>
+        </ul>
+
         <div class="contact-info-bottom">
           <div class="phone">
             <img class="icon" src="./images/phoneicon.svg"></img>

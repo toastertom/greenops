@@ -311,5 +311,46 @@
     font-size: 51px;
   }
 
+/*Footer*/
+  footer {
+
+  }
+
+  footer .foot-top button {
+    display: none;
+  }
+
+  footer .bottom-nav {
+    display: flex;
+    list-style: none;
+  }
+
+  footer .bottom-nav li {
+      text-align: center;
+      padding: 10px 0px;
+      width: 140px;
+      color: #fff;
+      font-size: 24px;
+      /*transition: border-bottom 0.3s linear;*/
+  }
+
+  .bottom-nav li:hover {
+    border-bottom: 3px solid #fff;
+  }
+
+  footer .contact-info-bottom {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+
+  }
+
+  footer .contact-info-bottom .phone {
+    font-size: 28px;
+  }
+
+  footer .contact-info-bottom .email {
+    font-size: 28px;
+  }
 
 }
