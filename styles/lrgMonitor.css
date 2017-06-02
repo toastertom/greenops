@@ -2,14 +2,14 @@
   body {
     background: blue;
   }
-/*Index*/
+
 nav li {
   font-size: 28px;
   margin: 0px;
 }
 
-/*Home*/
-.professinal .services-intro {
+
+.professional .services-intro {
   margin-left: 30px;
   margin-right: 10px;
   background: blue;
