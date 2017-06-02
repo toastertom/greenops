@@ -21,6 +21,8 @@
    header .phone {
      width: 25%;
      border: none;
+     display: flex;
+     justify-content: flex-end;
 
    }
 
@@ -29,7 +31,8 @@
    }
 
    header .phone p {
-     text-align: right;
+     display: flex;
+     justify-content: flex-end;
    }
 
    header .social {
@@ -324,6 +327,7 @@
   footer .bottom-nav {
     display: flex;
     list-style: none;
+    padding-left: 10px;
   }
 
   footer .bottom-nav li {
