@@ -9,7 +9,17 @@ nav li {
 .professional .services-intro {
   margin-left: 30px;
   margin-right: 0px;
+  padding: 30px;
 }
+
+.professional .services-intro h2{
+  margin: 35px 0px;
+}
+
+.professional .services-intro p{
+  padding: 35px 0px;
+}
+
 .professional .featured-service {
   padding: 0px 30px;
   margin: 0px;
