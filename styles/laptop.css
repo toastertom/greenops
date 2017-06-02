@@ -109,15 +109,15 @@
 
   .professional {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 80px 0px;
     width: 100vw;
   }
 
   .services-intro {
-    width: 250px;
-    margin: 0 auto;
+    width: 28%;
     height: 355px;
+    margin: 0px 20px;
 
   }
 
@@ -133,10 +133,10 @@
   }
 
   .featured-service {
-    padding: 0px 10px;
-    width: 200px;
+    padding: 0px;
+    width: 22%;
     font-size: 16px;
-    margin: 0px 5px;
+    margin: 0px 10px;
   }
 
   .featured-service img {
@@ -144,6 +144,8 @@
     width: 100%;
 
   }
+
+  .c
 
   .featured-service h3 {
     font-size: 20px;
