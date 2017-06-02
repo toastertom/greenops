@@ -80,6 +80,10 @@
     height: 127px;
   }
 
+  nav a {
+    width: 25%;
+  }
+
   nav li {
     width: 140px;
     text-align: inherit;
@@ -169,7 +173,7 @@
   }
 
   .why-cards {
-    width: 380px;
+    width: 33.33%;
     height: 282px;
     padding-top: 40px;
   }
