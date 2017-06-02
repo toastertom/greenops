@@ -139,13 +139,11 @@ nav li {
   padding: 10px 0px;
   width: 100vw;
   color: #95989A;
-  transition: font-size 0.3s linear;
-
 }
 
-nav li:hover {
+/*nav li:hover {
   font-size: 25px;
-}
+}*/
 
 nav li .icon {
   width: 18px;
@@ -173,7 +171,7 @@ footer .contact-info-bottom {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  
+
 }
 
 footer p {
