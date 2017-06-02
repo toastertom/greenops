@@ -11,11 +11,12 @@ nav li {
   margin-right: 0px;
 }
 .professional .featured-service {
-  padding: 0px 40px;
+  padding: 0px 30px;
+  margin: 0px;
 }
 
-.professional .featured-service img {
-  height: 200px;
+.professional .featured-service img{
+  height: 220px;
 }
 
 
